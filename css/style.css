@@ -1,0 +1,753 @@
+/*	fonts */
+
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('../fonts/droidsans-webfont.eot');
+    src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidsans-webfont.woff') format('woff'),
+         url('../fonts/droidsans-webfont.ttf') format('truetype'),
+         url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sansationbold';
+    src: url('../fonts/sansation-bold-webfont.eot');
+    src: url('../fonts/sansation-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sansation-bold-webfont.woff') format('woff'),
+         url('../fonts/sansation-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sansation-bold-webfont.svg#sansationbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansitalic';
+    src: url('../fonts/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-italic-webfont.woff') format('woff'),
+         url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+         url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'chantelli_antiquaregular';
+    src: url('../fonts/chantelli_antiqua-webfont.eot');
+    src: url('../fonts/chantelli_antiqua-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chantelli_antiqua-webfont.woff2') format('woff2'),
+         url('../fonts/chantelli_antiqua-webfont.woff') format('woff'),
+         url('../fonts/chantelli_antiqua-webfont.ttf') format('truetype'),
+         url('../fonts/chantelli_antiqua-webfont.svg#chantelli_antiquaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('../fonts/kaushanscript-regular-webfont.eot');
+    src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+         url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+         url('../fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+	/* Page Styles */
+
+body{
+	margin:0px;
+	padding:0px;
+	background-image:url('../images/wrapperBg.png');
+}
+
+
+	/* Header */
+#header{
+	width:100%;
+	height:220px;
+	background-image:url('../images/headerBg.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#header a{
+	margin: 45px 0 0;
+	display: inline-block;
+}
+
+#header img {
+	max-height: 130px; 
+}
+
+#contact-form {
+	width: 100%;
+	float: left;
+}
+
+#header h1 a img{
+	width:400px;
+}
+	/* Sfarsit Header */
+
+	/* Navigation-Bar */
+.menu-item {
+	display: inline-block;
+	transition: all ease 0.6s;
+	background-color: transparent;
+	float: left;
+	border-left: 1px solid rgba(62, 55, 55, 0.45);
+}
+
+.menu-item:last-child {
+	border-right: 1px solid rgba(62, 55, 55, 0.45);
+}
+
+.current-menu-item {
+	background-color: black;
+}
+.current-menu-item a{
+	/*color:rgba(8, 122, 255, 1); */
+	color: white;
+}
+.menu-item:hover{
+	background-color: black;
+	transition:all ease 0.6s;
+}
+.menu-item:hover a{
+	color:white;
+}
+
+.menu-anchor{
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+	font-family: 'sansationbold';
+}
+#menu{
+	background-image: url("../images/office.png");
+}
+
+#menu-containar{
+	width: 900px;
+	margin:0 auto;
+	height: 41px;
+}
+	/* Sfarsit Navigation-Bar */
+
+	/* Wrapper */
+.wrapper{
+	width:900px;
+	overflow: auto;
+	overflow-x: hidden;
+	height: 100%;
+	margin:0 auto;
+	clear: both;
+	background-color: rgba(19, 21, 19, 0.3);
+}
+
+h1{
+	margin: 10px 0 20px;
+	font-family: "sansationbold";
+	font-size: 30px;
+	text-align: center;
+	color: white;
+}
+
+.wrapper p{
+	font-size: 15px;
+	margin:0 auto 10px;
+	font-family: "droid_sansregular";
+	color: white;
+}
+
+.wrapper #secound-paragraf-index{
+	font-size: 15px;
+	margin: 0 auto;
+	font-family: "droid_sansregular";
+	color: white;
+	padding-left: 8px;
+	padding-bottom: 8px;
+}
+
+.wrapper p:first-letter{
+	margin-left: 15px;
+}
+
+#blabla{
+	width:900px;
+	max-height:300px;
+}
+
+
+	/* Sfarsit Wrapper */
+
+	/* Footer */
+#footer{
+	width: 100%;
+	height:70px;
+	background-color: #5F5252;
+	border-top: 10px solid #474343;
+}
+
+.footer-content{
+	width: 900px;
+	height: 70px;
+	margin:0 auto;
+}
+
+.box-footer{
+	width: 275px;
+	height: 50px;
+	padding:10px;
+	display: inline-block;
+	margin: 0 auto;
+	line-height: 75px;
+
+}
+
+.box-footer img{
+	width: 255px;
+	height: 35px;
+}
+	/* Sfarsit Footer */
+
+	/* Slider  Acasa */
+
+#hero{
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin: 20px auto;
+}
+
+.items {
+	width: 860px;
+}
+
+.items img {
+	width: 100%;
+}
+
+#slider{
+	width: 860px;
+	height:400px;
+	position: absolute;
+	overflow: hidden;
+}
+
+#next{
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 135px;
+	right: 0px;
+	z-index: 99;
+	cursor: pointer;
+	opacity: 0;
+}
+
+#prev{
+	text-align: center;
+	line-height: 50px;
+	color: #FFF;
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	position: absolute;
+	top: 135px;
+	left: 0px;
+	z-index: 99;
+	cursor: pointer;
+	opacity: 0;
+}
+
+#hero:hover #next{
+	opacity: .4;
+	transition: all .5s ease-out;
+	-webkit-transition: all .5s ease-out;
+}
+
+#hero:hover #prev{
+	opacity: .4;
+	transition: all .5s ease-out;
+	-webkit-transition: all .5s ease-out;
+}
+
+.info {
+	width: 860px;
+	height: 80px;
+	background-color: rgba(160,0,2,0.5);
+	position: absolute;
+	top: 400px;
+	z-index: 99;
+	opacity: 0;
+}
+
+#hero:hover .info{
+	opacity: 1;
+	top:320px;
+	-webkit-transition: all .5s ease-out;
+}
+
+.info h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	color:#FFF;
+	padding: 0 20px;
+	margin-top: 15px;
+	margin-left: 18px;
+}
+
+.info p{
+	font-family: sans-serif;
+	font-weight: lighter;
+	color:#FFF;
+	padding: 0 20px;
+	margin-top: -15px;
+}
+
+.info a{
+	text-decoration: none;
+	color:rgb(105, 252, 105);
+}
+
+ 	/* Sfarsit Slider Acasa */
+
+	/* Sidebar */
+
+#sideBar {
+	width: 215px;
+	float: left;
+}
+
+#sideBar img {
+	max-width: 100%
+}
+
+#sideBar ul {
+	padding: 0 0 0 20px;
+}
+
+ .animeList ul {
+	list-style: none;
+}
+
+.animeList li{
+	padding-bottom: 10px;
+	font-family: "droid_sansregular";
+}
+
+.animeList a{
+	text-decoration: none;
+	color: rgba(156, 142, 142, 0.9);
+}
+
+  /* Sfarsit Sidebar */
+
+  /* Galerie */
+
+.image-wrapper-big {
+	width: 33.3%;
+	float: left;
+	margin: 15px 0;
+	height: 110px;
+}
+
+.image-wrapper-small {
+	width: 80%;
+	margin: 0 auto;
+	max-height: 100%;
+}
+
+.image-wrapper-small img{
+	max-height:100%;
+	max-width:100%;
+	cursor:pointer;
+}
+
+#big-image-wrapper {
+	margin:20px 0;
+}
+
+#big-image-wrapper img {
+	margin: 0 auto;
+	display: block;
+	max-width: 600px;
+	max-height: 600px;
+}
+
+/* Sfarsit Galerie Slider */
+
+#glWrapper {
+	margin-top: 35px;
+}
+
+#glWrapper h1 {
+	font-family: "sansationbold";
+	font-size: 32px;
+}
+
+#sakuraImg {
+	width: 159px;
+	height: 300px;
+	background-image: url('../images/sakura.png');
+	background-repeat: no-repeat;
+	background-size: 136px 300px;
+	margin-top: 17px;
+	margin-left: 41px;
+}
+
+#sideBar h3 {
+  	font-size: 20px;
+  	border-bottom: 4px solid black;
+  	color: white;
+  	font-family: 'sansationbold';
+	text-align: center;
+	padding: 0 0 5px;
+}
+
+#home-box {
+	margin: 0 -20px;
+	padding: 20px;
+	background-color: rgba(56, 78, 128);
+	background-color: rgba(56, 78, 128, 0.63);
+	width: 100%;
+	float: left;
+}
+
+.boxs{
+	width: 100%;
+	margin: 0 auto;
+	float:left;
+}
+
+.box{
+	width: 25%;
+	float:left;
+}
+
+.home-wrapper {
+	padding: 10px 20px 0;
+	width: 860px;
+}
+
+.box-inner{
+	width:75%;
+	margin:0 auto;
+}
+
+.box img{
+	max-width: 163%;
+  	max-height: 133px;
+}
+
+.box a{
+	text-decoration: none;
+	display:block;
+}
+
+.box p{
+	margin: 0px;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+#home-box h3 {
+	text-align: center;
+	color: white;
+	font-family: "sansationbold";
+}
+
+#contentWrapper {
+  	width: 645px;
+	padding: 20px;
+	float: left;
+	background-color: rgba(30, 18, 18, 0.2);
+}
+
+#contentWrapper img {
+	max-width: 100%;
+}
+
+#narutoImg{
+	width: 600px;
+	height: 215;
+	margin-left: 70px;
+	background-image: url('../images/naruto.jpg');
+	background-repeat: no-repeat;
+	background-size: 525px 215px;
+}
+
+#mikasaImg2 {
+  	width: 200px;
+  	height: 230px;
+  	background-image: url('../images/mikasa2.png');
+  	background-repeat: no-repeat;
+  	background-size: 197px 230px;
+  	margin-top: 40px;
+  }
+
+  #indexImg {
+ 	width: 148px;
+  	height: 244px;
+  	background-image: url('../images/uzumaki.png');
+  	background-repeat: no-repeat;
+  	background-size: 145px 240px;
+  	margin-left: 45px;
+  	margin-top: 78px;
+}
+
+#contact-form table {
+  	width: 95%;
+  	border: 2px solid grey;
+ 	padding: 20px 70px;
+ 	margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+#contact-form td {
+  padding-top: 20px;
+}
+
+#contact-form h2{
+	margin: 0px;
+  	font-family: kaushan_scriptregular;
+  	text-align: center;
+  	font-size: 32px;
+    padding-top: 50px;
+}
+#form-text {
+  	font-family: "sansationbold";
+ 	font-size: 20px;
+  	color: rgb(13, 163, 255);
+}
+
+#contact-form a{
+	color: black;
+  	text-decoration: none;
+}
+
+#contact-form a:hover{
+	color: red;
+  	text-decoration: none;
+}
+
+
+#contact-form #comentariu {
+  	height: 70px;
+  	width: 240px;
+}
+
+#contact-form textarea {
+ 	 resize: none;
+}
+
+#contact-form input {
+  	width: 210px;
+  	height: 25px;
+}
+
+#contact-form #trimite {
+  	width: 245px;
+}
+
+#gaaraImg {
+  	width: 186px;
+  	height: 270px;
+  	background-image: url('../images/gaara.png');
+  	background-repeat: no-repeat;
+  	background-size: 182px 270px;
+  	margin: 0 auto;
+}
+
+#misaImg{
+	
+	background-image: url('../images/Misa.png');	
+	width: 260px;
+	height: 315px;
+	background-repeat: no-repeat;
+	background-size: 260px 298px;
+	position: relative;
+	top: 70px;
+	right: 30px;
+}
+
+#orihimeImg{
+	width: 210px;
+	height: 260px;
+	background-image: url('../images/orihime.png');
+	background-repeat: no-repeat;
+	background-size: 190px 260px;
+	margin-left: 13px;
+}
+
+#gokuImg{
+	width: 186px;
+	height: 270px;
+	background-image: url('../images/goku.png');
+	background-repeat: no-repeat;
+	background-size: 186px 264px;
+	margin: 0 auto;
+}
+
+#erenImg{
+	width: 195px;
+	height: 160px;
+	background-image: url('../images/eren.png');
+	background-repeat: no-repeat;
+	background-size: 190px 160px;
+	margin-top: 40px;
+	margin-left: 15px;
+	margin-bottom: 65px;
+}
+
+#gtoSidebarImg {
+  	background-image: url('../images/gtoSidebar.jpg');
+  	background-repeat: no-repeat;
+  	background-size: 190px 140px;
+  	width: 200px;
+  	height: 140px;
+  	margin-top: 30px;
+  	margin-bottom: 40px;
+}
+
+#luffyImg{
+	width: 210px;
+	height: 260px;
+	background-image: url('../images/Luffy.png');
+	background-repeat: no-repeat;
+	background-size: 230px 260px;
+	  
+}
+
+#totoroImg{
+	  width: 210px;
+	  height: 260px;
+	  background-image: url('../images/totoro.png');
+	  background-repeat: no-repeat;
+	  background-size: 195px 260px;
+	  margin: 0 auto;
+}
+
+#kagomeImg{
+	width: 215px;
+	height: 260px;
+	background-image: url('../images/Kagome.png');
+	background-repeat: no-repeat;
+	background-size: 215px 260px;
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+#cowboyImg {
+  	background-image: url('../images/cowboy.png');
+ 	background-repeat: no-repeat;
+  	background-size: 190px 140px;
+  	width: 200px;
+  	height: 140px;
+  	margin-top: 30px;
+  	margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+#mononokeImg{
+	  width: 210px;
+	  height: 260px;
+	  background-image: url('../images/mononoke.png');
+	  background-repeat: no-repeat;
+	  background-size: 240px 260px;
+	  margin-top: 100px;
+}
+
+#howlImg {
+  	background-image: url('../images/howl.jpg');
+ 	background-repeat: no-repeat;
+  	background-size: 190px 140px;
+  	width: 200px;
+  	height: 140px;
+  	margin-top: 30px;
+  	margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+#champlooImg{
+	  width: 210px;
+	  height: 260px;
+	  background-image: url('../images/Muugen.png');
+	  background-repeat: no-repeat;
+	  background-size: 195px 260px;
+	  margin-left: 10px;
+	  margin-top: 25px;
+}
+
+#chihiroImg{
+	  width: 210px;
+	  height: 260px;
+	  background-image: url('../images/chihiro1.png');
+	  background-repeat: no-repeat;
+	  background-size: 195px 260px;
+	  margin: 0 auto;
+}
+
+#submit {
+  width: 95%;
+  min-height: 400px;
+  height: auto;
+  border: 2px solid grey;
+  padding-top: 50px;
+  margin-left: 22px;
+}
+
+#submit p{
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.footer-images {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0 0;
+}
+
+.footer-images a {
+	display: inline-block;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+.footer-images img {
+	max-width: 200px;
+	max-height: 30px;
+	display: inline-block; 
+	-webkit-filter: grayscale(100%); 
+	filter: grayscale(100%);
+	opacity: .5;
+}
