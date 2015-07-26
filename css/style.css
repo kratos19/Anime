@@ -1,72 +1,72 @@
 /*	fonts */
 
 @font-face {
-    font-family: 'droid_sansregular';
-    src: url('../fonts/droidsans-webfont.eot');
-    src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/droidsans-webfont.woff') format('woff'),
-         url('../fonts/droidsans-webfont.ttf') format('truetype'),
-         url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'droid_sansregular';
+	src: url('../fonts/droidsans-webfont.eot');
+	src: url('../fonts/droidsans-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/droidsans-webfont.woff') format('woff'),
+		 url('../fonts/droidsans-webfont.ttf') format('truetype'),
+		 url('../fonts/droidsans-webfont.svg#droid_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'sansationbold';
-    src: url('../fonts/sansation-bold-webfont.eot');
-    src: url('../fonts/sansation-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sansation-bold-webfont.woff') format('woff'),
-         url('../fonts/sansation-bold-webfont.ttf') format('truetype'),
-         url('../fonts/sansation-bold-webfont.svg#sansationbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'sansationbold';
+	src: url('../fonts/sansation-bold-webfont.eot');
+	src: url('../fonts/sansation-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/sansation-bold-webfont.woff') format('woff'),
+		 url('../fonts/sansation-bold-webfont.ttf') format('truetype'),
+		 url('../fonts/sansation-bold-webfont.svg#sansationbold') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'open_sansitalic';
-    src: url('../fonts/opensans-italic-webfont.eot');
-    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/opensans-italic-webfont.woff') format('woff'),
-         url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
-         url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'open_sansitalic';
+	src: url('../fonts/opensans-italic-webfont.eot');
+	src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/opensans-italic-webfont.woff') format('woff'),
+		 url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+		 url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'alex_brushregular';
-    src: url('../fonts/alexbrush-regular-webfont.eot');
-    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
-         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
-         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
-         url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'alex_brushregular';
+	src: url('../fonts/alexbrush-regular-webfont.eot');
+	src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+		 url('../fonts/alexbrush-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'chantelli_antiquaregular';
-    src: url('../fonts/chantelli_antiqua-webfont.eot');
-    src: url('../fonts/chantelli_antiqua-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/chantelli_antiqua-webfont.woff2') format('woff2'),
-         url('../fonts/chantelli_antiqua-webfont.woff') format('woff'),
-         url('../fonts/chantelli_antiqua-webfont.ttf') format('truetype'),
-         url('../fonts/chantelli_antiqua-webfont.svg#chantelli_antiquaregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'chantelli_antiquaregular';
+	src: url('../fonts/chantelli_antiqua-webfont.eot');
+	src: url('../fonts/chantelli_antiqua-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/chantelli_antiqua-webfont.woff2') format('woff2'),
+		 url('../fonts/chantelli_antiqua-webfont.woff') format('woff'),
+		 url('../fonts/chantelli_antiqua-webfont.ttf') format('truetype'),
+		 url('../fonts/chantelli_antiqua-webfont.svg#chantelli_antiquaregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 @font-face {
-    font-family: 'kaushan_scriptregular';
-    src: url('../fonts/kaushanscript-regular-webfont.eot');
-    src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
-         url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
-         url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
-         url('../fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'kaushan_scriptregular';
+	src: url('../fonts/kaushanscript-regular-webfont.eot');
+	src: url('../fonts/kaushanscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2'),
+		 url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+		 url('../fonts/kaushanscript-regular-webfont.ttf') format('truetype'),
+		 url('../fonts/kaushanscript-regular-webfont.svg#kaushan_scriptregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
@@ -337,7 +337,7 @@ h1{
 	color:rgb(105, 252, 105);
 }
 
- 	/* Sfarsit Slider Acasa */
+	/* Sfarsit Slider Acasa */
 
 	/* Sidebar */
 
@@ -424,10 +424,10 @@ h1{
 }
 
 #sideBar h3 {
-  	font-size: 20px;
-  	border-bottom: 4px solid black;
-  	color: white;
-  	font-family: 'sansationbold';
+	font-size: 20px;
+	border-bottom: 4px solid black;
+	color: white;
+	font-family: 'sansationbold';
 	text-align: center;
 	padding: 0 0 5px;
 }
@@ -464,7 +464,7 @@ h1{
 
 .box img{
 	max-width: 163%;
-  	max-height: 133px;
+	max-height: 133px;
 }
 
 .box a{
@@ -485,14 +485,21 @@ h1{
 }
 
 #contentWrapper {
-  	width: 645px;
-	padding: 20px;
+	width: 685px;
 	float: left;
 	background-color: rgba(30, 18, 18, 0.2);
 }
 
+#contentWrapper p {
+	padding: 0 10px;
+}
+
 #contentWrapper img {
 	max-width: 100%;
+}
+
+#glWrapper {
+	padding: 0 20px;
 }
 
 #narutoImg{
@@ -505,30 +512,30 @@ h1{
 }
 
 #mikasaImg2 {
-  	width: 200px;
-  	height: 230px;
-  	background-image: url('../images/mikasa2.png');
-  	background-repeat: no-repeat;
-  	background-size: 197px 230px;
-  	margin-top: 40px;
+	width: 200px;
+	height: 230px;
+	background-image: url('../images/mikasa2.png');
+	background-repeat: no-repeat;
+	background-size: 197px 230px;
+	margin-top: 40px;
   }
 
   #indexImg {
- 	width: 148px;
-  	height: 244px;
-  	background-image: url('../images/uzumaki.png');
-  	background-repeat: no-repeat;
-  	background-size: 145px 240px;
-  	margin-left: 45px;
-  	margin-top: 78px;
+	width: 148px;
+	height: 244px;
+	background-image: url('../images/uzumaki.png');
+	background-repeat: no-repeat;
+	background-size: 145px 240px;
+	margin-left: 45px;
+	margin-top: 78px;
 }
 
 #contact-form table {
-  	width: 95%;
-  	border: 2px solid grey;
- 	padding: 20px 70px;
- 	margin-left: 25px;
-    margin-bottom: 25px;
+	width: 95%;
+	border: 2px solid grey;
+	padding: 20px 70px;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
 #contact-form td {
@@ -537,53 +544,53 @@ h1{
 
 #contact-form h2{
 	margin: 0px;
-  	font-family: kaushan_scriptregular;
-  	text-align: center;
-  	font-size: 32px;
-    padding-top: 50px;
+	font-family: kaushan_scriptregular;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 50px;
 }
 #form-text {
-  	font-family: "sansationbold";
- 	font-size: 20px;
-  	color: rgb(13, 163, 255);
+	font-family: "sansationbold";
+	font-size: 20px;
+	color: rgb(13, 163, 255);
 }
 
 #contact-form a{
 	color: black;
-  	text-decoration: none;
+	text-decoration: none;
 }
 
 #contact-form a:hover{
 	color: red;
-  	text-decoration: none;
+	text-decoration: none;
 }
 
 
 #contact-form #comentariu {
-  	height: 70px;
-  	width: 240px;
+	height: 70px;
+	width: 240px;
 }
 
 #contact-form textarea {
- 	 resize: none;
+	 resize: none;
 }
 
 #contact-form input {
-  	width: 210px;
-  	height: 25px;
+	width: 210px;
+	height: 25px;
 }
 
 #contact-form #trimite {
-  	width: 245px;
+	width: 245px;
 }
 
 #gaaraImg {
-  	width: 186px;
-  	height: 270px;
-  	background-image: url('../images/gaara.png');
-  	background-repeat: no-repeat;
-  	background-size: 182px 270px;
-  	margin: 0 auto;
+	width: 186px;
+	height: 270px;
+	background-image: url('../images/gaara.png');
+	background-repeat: no-repeat;
+	background-size: 182px 270px;
+	margin: 0 auto;
 }
 
 #misaImg{
@@ -628,13 +635,13 @@ h1{
 }
 
 #gtoSidebarImg {
-  	background-image: url('../images/gtoSidebar.jpg');
-  	background-repeat: no-repeat;
-  	background-size: 190px 140px;
-  	width: 200px;
-  	height: 140px;
-  	margin-top: 30px;
-  	margin-bottom: 40px;
+	background-image: url('../images/gtoSidebar.jpg');
+	background-repeat: no-repeat;
+	background-size: 190px 140px;
+	width: 200px;
+	height: 140px;
+	margin-top: 30px;
+	margin-bottom: 40px;
 }
 
 #luffyImg{
@@ -666,14 +673,14 @@ h1{
 }
 
 #cowboyImg {
-  	background-image: url('../images/cowboy.png');
- 	background-repeat: no-repeat;
-  	background-size: 190px 140px;
-  	width: 200px;
-  	height: 140px;
-  	margin-top: 30px;
-  	margin-bottom: 40px;
-    margin-left: 10px;
+	background-image: url('../images/cowboy.png');
+	background-repeat: no-repeat;
+	background-size: 190px 140px;
+	width: 200px;
+	height: 140px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 10px;
 }
 
 #mononokeImg{
@@ -686,14 +693,14 @@ h1{
 }
 
 #howlImg {
-  	background-image: url('../images/howl.jpg');
- 	background-repeat: no-repeat;
-  	background-size: 190px 140px;
-  	width: 200px;
-  	height: 140px;
-  	margin-top: 30px;
-  	margin-bottom: 40px;
-    margin-left: 10px;
+	background-image: url('../images/howl.jpg');
+	background-repeat: no-repeat;
+	background-size: 190px 140px;
+	width: 200px;
+	height: 140px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	margin-left: 10px;
 }
 
 #champlooImg{
@@ -748,6 +755,224 @@ h1{
 	max-height: 30px;
 	display: inline-block; 
 	-webkit-filter: grayscale(100%); 
-	filter: grayscale(100%);
+	filter: grayscale(100%);ia
 	opacity: .5;
+} 
+
+.button-lista-anime { 
+	display: none;
+}
+
+/* tableta */
+@media(max-width: 1199px){
+
+	.home-wrapper,
+	#slider, 
+	.wrapper,
+	.footer-images,
+	#menu-containar, 
+	.box img {
+		max-width: 100%;
+	}
+
+	#contentWrapper {
+		width: 70%;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+
+}
+
+/* mobile */
+@media all and (max-width: 769px) {
+
+	#header img {
+		height: 80px;
+		max-width: 100%;
+	}
+
+	#menu a.menu-anchor {
+		padding: 6px 0px;
+		margin: 0px 5px;
+		font-size: 13px;
+	}
+
+	.button-lista-anime {
+		padding: 5px 15px;
+		border-radius: 3px;
+		border: 0;
+		margin: 0 auto 15px;
+		display: block;
+		text-transform: uppercase;
+		font-size: 13px;
+		color: white;
+		background-color: black;
+	}
+
+	.wrapper {
+		width: 100%;
+		position: relative;
+	}
+
+	#menu-containar {
+		width: 100%;
+		margin: 0 auto;
+		height: 26px;
+	}
+	.home-wrapper {
+		padding: 5%;
+		width: 90%;
+	}
+
+	.home-wrapper h1{ 
+		font-size: 22px;
+	}
+
+	.wrapper p {
+		font-size: 12px;
+		margin: 0 auto 10px;
+		font-family: "droid_sansregular";
+		color: white;
+	}
+	#hero {
+		height: 150px;
+		position: relative;
+	 }
+	 .items img {
+		 width: 100%;
+	}
+	.info {
+		width: 413px;
+		height: 53px;
+	}
+	.info h2 {
+		padding: 0 15px;
+		margin-left: 18px;
+	}
+	.info span{
+		display: none;
+	}
+	#prev {
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	#next {
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		transform: translateY(-50%);
+	}
+	
+	.wrapper #secound-paragraf-index {
+		font-size: 12px;
+	}
+
+	#home-box  {
+		display: none;
+		background-color: rgba(40, 41, 40, 0.57);
+		padding: 0px;
+	}
+	.footer-images img {
+		max-width: 130px;
+		max-height: 30px;
+	}
+
+	.footer-images {
+		width: 100%;
+		overflow: auto;
+	}
+
+	.footer-images a{
+		width: 100%;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	#footer {
+		height: auto;
+	}
+
+	/* Slider */
+
+	#slider {
+		width: 100% !important;
+		height: 150px;
+	} 
+
+	#slider .items {
+		width: 100% !important;
+	}
+
+	/* Pagina Galerie */
+	
+	#sideBar {
+		width: 70%;
+		position: absolute;
+		background: rgb(29, 29, 29);
+		left: 0;
+		border-right: 1px solid rgb(0, 0, 0);
+		height: 100%;
+		display: none;
+	}
+
+	#sideBar.arata {
+		display: block;
+	}
+
+	#sideBar h3 {
+		font-size: 16px;
+		margin-bottom: 5px;
+	}
+	.animeList li {
+		padding-bottom: 5px;
+	}
+	.animeList a {
+		font-size: 12px;
+		color: white;
+	}
+	#sakuraImg, 
+	#gaaraImg,
+	#sideBar img,
+	#orihimeImg,
+	#gokuImg,
+	#erenImg,
+	#luffyImg,
+	#totoroImg,
+	#kagomeImg,
+	#cowboyImg,
+	#mononokeImg,
+	#howlImg,
+	#gtoSidebarImg,
+	#champlooImg,
+	#chihiroImg,
+	#mikasaImg2,
+	#indexImg {
+		display: none;
+	}
+
+	#contentWrapper {
+	  width: 100%;
+	}
+	#contentWrapper h1 {
+		margin-bottom: 5px;
+	}
+	#contentWrapper img {
+		display: block;
+		width: auto;
+		max-width: 98%;
+		margin: 0 auto 10px;
+	}
+	.image-wrapper-big {
+	  width: 100%;
+	  height: auto;
+	}	
+	#glWrapper h1 {
+		margin-bottom: 10px;
+	}
 }

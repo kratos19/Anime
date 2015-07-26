@@ -3,7 +3,7 @@
 	ini_set('display_errors',1);
 	error_reporting(-1);
 
-	define('URI', 'http://localhost:8080/atestat/');
+	define('URI', 'http://anim3fan.96.lt/');
 	define('APP', true);
 
 	function check_page()
@@ -33,12 +33,12 @@
 				'page_21',
 			);
 
-		$temp_page=isset($_GET['page']) ? $_GET['page'] : 'home';
+		$temp_page=isset($_GET['page']) ? $_GET['page'] : 'page_0';
 
 		if(in_array($temp_page, $allowed_pages))
 			return $temp_page;
 		else
-			return 'home';
+			return 'page_0';
 	}
 
 	function createMenuItem($pageNumber, $title)

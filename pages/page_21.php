@@ -1,11 +1,6 @@
 <?php 
-	$utilizator = "root";
-	$parola = "";
-	$host = "localhost";
-	$baza_de_date = "anime";
-	
 
-	$db = new PDO("mysql:host=localhost; dbname=$baza_de_date; charset=utf8" , $utilizator, $parola);
+	require("functions/connect.php");
 
 	$interogare="SELECT * FROM `anime`";
 	$result=$db->query($interogare);
@@ -30,8 +25,7 @@
 		$episoade=isset($_POST['episoade']) && is_numeric($_POST['episoade']) ? $_POST['episoade'] : 0;
 		$autor=isset($_POST['autor']) ? $_POST['autor'] : '';
 
-		if($nume=="" && $statut=="")
-		{
+		if($nume=="" && $statut=="") {
 			die('Te rog sa adaugii un nume si un statut');
 		}
 		else
@@ -39,8 +33,8 @@
 			$interogare="INSERT INTO `anime` (`nume`, `statut`, `aparitie`, `episoade`, `autor`)
 						 VALUES('$nume','$statut', $aparitie, $episoade, '$autor')";
 			$db->query($interogare);
+			header("Location: ".$_SERVER['REQUEST_URI']);
 		}
-		header("Location: ".$_SERVER['REQUEST_URI']);
 	}
 ?>			
 
@@ -48,7 +42,7 @@
 	<div id="contact-form">
 		<h1>
 			<i class="fa fa-lock"></i>
-			<span>Management anime-uri !</span>
+			<span> Management anime-uri !</span>
 		</h1>
 		<form action="" method="POST">
 			<table>
@@ -102,59 +96,59 @@
 			</table>
 		</form>
 		<table>
-					<thead>
-						<tr>
-							<th>
-								Id
-							</th>
-							<th>
-								Nume
-							</th>
-							<th>
-								Statut
-							</th>
-							<th>
-								Aparitie
-							</th>
-							<th>
-								Episoade
-							</th>
-							<th>
-								Autor
-							</th>
-							<th>
-								Action
-							</th>
-						</tr>
-					</thead>
-					<tbody>
-						<?php  foreach($rezultate as $info): ?> 
-							<tr>
-								<td>
-									<?php echo $info['id']; ?> 
-								</td>
-								<td>
-									<?php echo $info['nume'];?>
-								</td>
-								<td>
-									<?php echo $info['statut'];?>
-								</td>
-								<td>
-									<?php echo $info['aparitie'];?>
-								</td>
-								<td>
-									<?php echo $info['episoade'];?>
-								</td>
-								<td>
-									<?php echo $info['autor'];?>
-								</td>
-								<td>
-									<a href="<?php echo $_SERVER['REQUEST_URI'], '&edit=', $info['id']; ?>">Editeaza</a>	
-									<a href="<?php echo $_SERVER['REQUEST_URI'], '&delete=',$info['id']; ?>">Sterge</a>	
-								</td>
-							</tr>
-						<?php endforeach; ?>
-					</tbody>
-				</table>
+			<thead>
+				<tr>
+					<th>
+						Id
+					</th>
+					<th>
+						Nume
+					</th>
+					<th>
+						Statut
+					</th>
+					<th>
+						Aparitie
+					</th>
+					<th>
+						Episoade
+					</th>
+					<th>
+						Autor
+					</th>
+					<th>
+						Action
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+				<?php  foreach($rezultate as $info): ?> 
+					<tr>
+						<td>
+							<?php echo $info['id']; ?> 
+						</td>
+						<td>
+							<?php echo $info['nume'];?>
+						</td>
+						<td>
+							<?php echo $info['statut'];?>
+						</td>
+						<td>
+							<?php echo $info['aparitie'];?>
+						</td>
+						<td>
+							<?php echo $info['episoade'];?>
+						</td>
+						<td>
+							<?php echo $info['autor'];?>
+						</td>
+						<td>
+							<a href="<?php echo $_SERVER['REQUEST_URI'], '&edit=', $info['id']; ?>">Editeaza</a>	
+							<a href="<?php echo $_SERVER['REQUEST_URI'], '&delete=',$info['id']; ?>">Sterge</a>	
+						</td>
+					</tr>
+				<?php endforeach; ?>
+			</tbody>
+		</table>
 	</div>
 </div>

@@ -1,5 +1,4 @@
 <?php if(!defined('APP')) return false; ?>
-
 <div class="wrapper home-wrapper">
 	<h1>Ce sunt anime-urile?</h1>
 	<p>
