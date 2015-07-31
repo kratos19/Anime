@@ -4,31 +4,32 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Samurai Champloo
+					Naruto
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Samurai Champloo is a Japanese anime series developed by Manglobe. 
-					It featured a production team led by director Shinichiro Watanabe, character designer Kazuto Nakazawa and mechanical designer Mahiro Maeda. 
-					Samurai Champloo was Watanabe's first directorial effort for an anime television series after the critically acclaimed Cowboy Bebop. 
-					It was first broadcast in Japan on Fuji TV on May 20, 2004 and ran for twenty-six episodes until its conclusion on March 19, 2005.
+					Naruto este o serie manga japoneza scrisa si ilustrata de Masashi Kishimoto, avand si o adaptare anime. 
+					Personajul principal, Naruto Uzumaki, este un ninja adolescent, imprevizibil si hiperactiv, care este intr-o constanta cautare de cunoastere, 
+					visand sa devina Hokage, un ninja recunoscut ca cel mai puternic dintre toti si liderul satului.
 				</p>
-				<img src="images/samurai-champlo.jpeg">	
+				<img src="images/narutoImgPage.jpg" />	
+			</div>
+			<div class="animeImg">
+				<h1>
+					Naruto Shippuuden
+				</h1>
 				<p>
-					Samurai Champloo is set in an alternate version of Edo-era Japan with an anachronistic, predominantly hip-hop, setting. 
-					It follows Mugen, an impudent and freedom-loving vagrant swordsman; Jin, a composed and stoic rōnin; and Fuu, a brave girl who asks them to accompany her in her quest across Japan to find the "samurai who smells of sunflowers".
-					Like Cowboy Bebop, Samurai Champloo was critically acclaimed, and the series was dubbed in the English language and licensed by Geneon Entertainment for releases in North America. 
+					Naruto Shippuuden este continuarea seriei originale Naruto. 
+					Povestea se invarte in jurul unui Naruto Uzumaki mai in varsta si mai matur, fiind intr-o continua cautare care spera sa duca la salvarea prietenului sau Uchiha Sasuke din mainile sarpelui Shinobi, Orochimaru. 
+					Dupa doi ani si jumatate, Naruto se intoarce in Konoha si decide sa faca totul pentru ca drumul sau sa fie pavat cu fapte reale. Dar cand in atentia sa apare o noua grupare numita Akatsuki... lucrurile se complica.
 				</p>
-				<img src="images/samurai_champloo.jpg">
-				
+				<img src="images/akatsuki.jpg">
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="champlooImg">
-				</div>
 				<h3>
 					Anime-uri:
 				</h3>
@@ -56,7 +57,7 @@
 					</ul>
 				</div>
 			</div>
+			<img src="images/gaara.png">
 		</div>
 	</div>
 </div>
-

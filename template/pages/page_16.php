@@ -4,31 +4,29 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Bleach
+					Great Teacher Onizuka
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Povestea incepe cu aparitia subita a Rukia Kuchiki in camera lui Ichigo Kurosaki. 
-					Ea este surprinsa de abiltatea sa de o vedea, dar conversatia ce rezulta este intrerupta de aparitia unui hollow, un spirit malefic. 
-					Dupa ce Rukia este grav ranita incercand sa-l protejeze pe Ichigo, 
-					ea intentioneaza sa-i transfere jumatate din puterile ei lui Ichigo, sperand sa ii dea oportunitatea sa infrunte hollows pe picior de egalitate. Ichigo absoarbe neintentionat aproximativ toata puterea ei, ceea ce ii permite sa invinga hollow cu usurinta.
+					Great Teacher Onizuka, abreviat oficial la GTO, este un manga, anime si serial-drama TV japonez, adresata adolescentilor, creat de Tohru Fujisawa. 
+					Este povestea lui Eikichi Onizuka, un fost membru al unei gasti de motociclisti bosozoku, si visul acestuia de a deveni cel mai bun profesor din Japonia. 
+					GTO este o continuare oficiala a manga-ului de acelasi autor Shonan Junai Gumi, precedata la randul sau de Bad Company. de asta, apropiindu-se de el si pretinzind ca va ajuta cu investigatia, in ciuda banuielilor deja conturate de L in privinta lui.
 				</p>
-				<img src="images/kurosaky.jpg">	
+				<img src="images/gto.jpg">	
 				<p>
-					Urmatoarea zi, Rukia apare in clasa lui Ichigo ca un elev transferat. 
-				Spre surprinderea lui, ea pare a fi un om normal. 
-				Ea teoretizeaza ca puterea spirituala a lui Ichigo a dus la absorbtia aproape totala a puterilor ei, lasand-o ca urmare naufragiata in lumea reala. 
-				Rukia si-a transferat spiritul intr-un gigai (un corp uman artificial) pana cand isi va recapata abilitatile. 
-				Intre timp, Ichigo trebuie sa-i preia indatoririle de shinigami, luptand cu hollows si ghidand suflete ratacite inapoi in Soul Society.
+					Eikichi Onizuka is a 22-year-old ex-gang member and a virgin. 
+					While peeping up girls' skirts at a local shopping mall, Onizuka meets a girl who agrees to go out on a date with him. Onizuka's attempt to sleep with her fails when her current "boyfriend", her teacher, shows up at the love hotel they are in and asks her to return to him. 
+					The teacher is old and unattractive, but has sufficient influence over her that she leaps from a second-story window and lands in his arms.
+					Onizuka, upon seeing this display of a teacher's power over girls, decides to become a teacher himself.
 				</p>
-				<img src="images/RukiaIchigo.jpg">
-				
+				<img src="images/Great-Teacher-Onizuka.jpg">	
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
+				<img src="images/gtoSidebar.jpg">
 				<h3>
 					Anime-uri:
 				</h3>
@@ -55,8 +53,6 @@
 						<li><a href="<?php echo URI, 'index.php?page=page_19'; ?>">Spirited Away</a></li>
 					</ul>
 				</div>
-			</div>
-			<div id="orihimeImg">
 			</div>
 		</div>
 	</div>

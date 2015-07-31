@@ -75,7 +75,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-image:url('../images/wrapperBg.png');
+	background-image:url('../../images/wrapperBg.png');
 }
 
 
@@ -83,7 +83,7 @@ body{
 #header{
 	width:100%;
 	height:220px;
-	background-image:url('../images/headerBg.jpg');
+	background-image:url('../../images/headerBg.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -97,11 +97,7 @@ body{
 
 #header img {
 	max-height: 130px; 
-}
-
-#contact-form {
-	width: 100%;
-	float: left;
+	border:0px;
 }
 
 #header h1 a img{
@@ -146,13 +142,13 @@ body{
 	font-family: 'sansationbold';
 }
 #menu{
-	background-image: url("../images/office.png");
+	background-image: url("../../images/office.png");
 }
 
 #menu-containar{
 	width: 900px;
 	margin:0 auto;
-	height: 41px;
+	height: 40px;
 }
 	/* Sfarsit Navigation-Bar */
 
@@ -239,7 +235,7 @@ h1{
 	width: 100%;
 	height: 400px;
 	position: relative;
-	margin: 20px auto;
+	margin: 20px;
 }
 
 .items {
@@ -266,7 +262,7 @@ h1{
 	background-color: black;
 	position: absolute;
 	top: 135px;
-	right: 0px;
+	right: 40px;
 	z-index: 99;
 	cursor: pointer;
 	opacity: 0;
@@ -407,22 +403,13 @@ h1{
 #glWrapper {
 	margin-top: 35px;
 }
+.wrapper h1{
+	font-size: 30px;
+}
 
 #glWrapper h1 {
 	font-family: "sansationbold";
-	font-size: 32px;
 }
-
-#sakuraImg {
-	width: 159px;
-	height: 300px;
-	background-image: url('../images/sakura.png');
-	background-repeat: no-repeat;
-	background-size: 136px 300px;
-	margin-top: 17px;
-	margin-left: 41px;
-}
-
 #sideBar h3 {
 	font-size: 20px;
 	border-bottom: 4px solid black;
@@ -452,11 +439,6 @@ h1{
 	float:left;
 }
 
-.home-wrapper {
-	padding: 10px 20px 0;
-	width: 860px;
-}
-
 .box-inner{
 	width:75%;
 	margin:0 auto;
@@ -465,6 +447,7 @@ h1{
 .box img{
 	max-width: 163%;
 	max-height: 133px;
+	border:0px;
 }
 
 .box a{
@@ -502,226 +485,6 @@ h1{
 	padding: 0 20px;
 }
 
-#narutoImg{
-	width: 600px;
-	height: 215;
-	margin-left: 70px;
-	background-image: url('../images/naruto.jpg');
-	background-repeat: no-repeat;
-	background-size: 525px 215px;
-}
-
-#mikasaImg2 {
-	width: 200px;
-	height: 230px;
-	background-image: url('../images/mikasa2.png');
-	background-repeat: no-repeat;
-	background-size: 197px 230px;
-	margin-top: 40px;
-  }
-
-  #indexImg {
-	width: 148px;
-	height: 244px;
-	background-image: url('../images/uzumaki.png');
-	background-repeat: no-repeat;
-	background-size: 145px 240px;
-	margin-left: 45px;
-	margin-top: 78px;
-}
-
-#contact-form table {
-	width: 95%;
-	border: 2px solid grey;
-	padding: 20px 70px;
-	margin-left: 25px;
-	margin-bottom: 25px;
-}
-
-#contact-form td {
-  padding-top: 20px;
-}
-
-#contact-form h2{
-	margin: 0px;
-	font-family: kaushan_scriptregular;
-	text-align: center;
-	font-size: 32px;
-	padding-top: 50px;
-}
-#form-text {
-	font-family: "sansationbold";
-	font-size: 20px;
-	color: rgb(13, 163, 255);
-}
-
-#contact-form a{
-	color: black;
-	text-decoration: none;
-}
-
-#contact-form a:hover{
-	color: red;
-	text-decoration: none;
-}
-
-
-#contact-form #comentariu {
-	height: 70px;
-	width: 240px;
-}
-
-#contact-form textarea {
-	 resize: none;
-}
-
-#contact-form input {
-	width: 210px;
-	height: 25px;
-}
-
-#contact-form #trimite {
-	width: 245px;
-}
-
-#gaaraImg {
-	width: 186px;
-	height: 270px;
-	background-image: url('../images/gaara.png');
-	background-repeat: no-repeat;
-	background-size: 182px 270px;
-	margin: 0 auto;
-}
-
-#misaImg{
-	
-	background-image: url('../images/Misa.png');	
-	width: 260px;
-	height: 315px;
-	background-repeat: no-repeat;
-	background-size: 260px 298px;
-	position: relative;
-	top: 70px;
-	right: 30px;
-}
-
-#orihimeImg{
-	width: 210px;
-	height: 260px;
-	background-image: url('../images/orihime.png');
-	background-repeat: no-repeat;
-	background-size: 190px 260px;
-	margin-left: 13px;
-}
-
-#gokuImg{
-	width: 186px;
-	height: 270px;
-	background-image: url('../images/goku.png');
-	background-repeat: no-repeat;
-	background-size: 186px 264px;
-	margin: 0 auto;
-}
-
-#erenImg{
-	width: 195px;
-	height: 160px;
-	background-image: url('../images/eren.png');
-	background-repeat: no-repeat;
-	background-size: 190px 160px;
-	margin-top: 40px;
-	margin-left: 15px;
-	margin-bottom: 65px;
-}
-
-#gtoSidebarImg {
-	background-image: url('../images/gtoSidebar.jpg');
-	background-repeat: no-repeat;
-	background-size: 190px 140px;
-	width: 200px;
-	height: 140px;
-	margin-top: 30px;
-	margin-bottom: 40px;
-}
-
-#luffyImg{
-	width: 210px;
-	height: 260px;
-	background-image: url('../images/Luffy.png');
-	background-repeat: no-repeat;
-	background-size: 230px 260px;
-	  
-}
-
-#totoroImg{
-	  width: 210px;
-	  height: 260px;
-	  background-image: url('../images/totoro.png');
-	  background-repeat: no-repeat;
-	  background-size: 195px 260px;
-	  margin: 0 auto;
-}
-
-#kagomeImg{
-	width: 215px;
-	height: 260px;
-	background-image: url('../images/Kagome.png');
-	background-repeat: no-repeat;
-	background-size: 215px 260px;
-	margin-top: 25px;
-	margin-bottom: 40px;
-}
-
-#cowboyImg {
-	background-image: url('../images/cowboy.png');
-	background-repeat: no-repeat;
-	background-size: 190px 140px;
-	width: 200px;
-	height: 140px;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	margin-left: 10px;
-}
-
-#mononokeImg{
-	  width: 210px;
-	  height: 260px;
-	  background-image: url('../images/mononoke.png');
-	  background-repeat: no-repeat;
-	  background-size: 240px 260px;
-	  margin-top: 100px;
-}
-
-#howlImg {
-	background-image: url('../images/howl.jpg');
-	background-repeat: no-repeat;
-	background-size: 190px 140px;
-	width: 200px;
-	height: 140px;
-	margin-top: 30px;
-	margin-bottom: 40px;
-	margin-left: 10px;
-}
-
-#champlooImg{
-	  width: 210px;
-	  height: 260px;
-	  background-image: url('../images/Muugen.png');
-	  background-repeat: no-repeat;
-	  background-size: 195px 260px;
-	  margin-left: 10px;
-	  margin-top: 25px;
-}
-
-#chihiroImg{
-	  width: 210px;
-	  height: 260px;
-	  background-image: url('../images/chihiro1.png');
-	  background-repeat: no-repeat;
-	  background-size: 195px 260px;
-	  margin: 0 auto;
-}
-
 #submit {
   width: 95%;
   min-height: 400px;
@@ -757,32 +520,121 @@ h1{
 	-webkit-filter: grayscale(100%); 
 	filter: grayscale(100%);ia
 	opacity: .5;
+	border:0px;
 } 
 
 .button-lista-anime { 
 	display: none;
 }
 
-/* tableta */
-@media(max-width: 1199px){
+/*  Pagina Contact */
 
-	.home-wrapper,
-	#slider, 
-	.wrapper,
-	.footer-images,
-	#menu-containar, 
-	.box img {
-		max-width: 100%;
-	}
+#contact-form {
+    background-color: rgba(195, 192, 188, 0.16);
+    width: 70%;
+    padding:20px;
+    margin: 50px auto;    
+    border: 1px solid #000000;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:3px;
+    position:relative;
+}
+#contact-form h1 {
+    font-size:42px;
+    color:white;
+}
+#contact-form h2 {
+    margin-bottom:15px;
+    font-family: kaushan_scriptregular;
+    font-size: 23px;
+    text-align: center;
+    font-weight:normal;
+}
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form label {
+    margin-bottom:2px;
+    background-color: rgba(69, 66, 61, 0);
+    font-family: "sansationbold";
+    font-size: 14px;
+}
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea {
+    width:100%;
+    height: 40px;
+    border: 1px solid #CEE1E8;
+    margin-bottom:20px;
+    padding:4px;
+}
+#contact-form input:focus, 
+#contact-form select:focus, 
+#contact-form textarea:focus {
+    border: 1px solid #AFCDD8;
+}
+#contact-form textarea {
+    height:150px;
+    resize: none;
+}
+#contact-form label {
+    display:block;
+}
+#contact-form .required {
+    font-weight:bold;
+    color:#F00;    
+}
+#contact-form #submit-button {
+    width: 100px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#4C8092;
+    -moz-border-radius:8px;
+}
+#contact-form #submit-button:hover {
+    background-color: #458EA5;
+}
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
 
-	#contentWrapper {
-		width: 70%;
-	}
-
-	#sidebar {
-		width: 30%;
-	}
-
+#req-field-desc {
+    font-style:italic;
+    color:black;
+}
+ 
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+ 
+/* Normalize placeholder styles */
+ 
+/* chrome, safari */
+::-webkit-input-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+ 
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+ 
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  { 
+    color:#CCC;
+    font-style:italic;
 }
 
 /* mobile */
@@ -821,15 +673,9 @@ h1{
 		margin: 0 auto;
 		height: 26px;
 	}
-	.home-wrapper {
-		padding: 5%;
-		width: 90%;
+	#glWrapper h1 {
+	    font-size: 28px;
 	}
-
-	.home-wrapper h1{ 
-		font-size: 22px;
-	}
-
 	.wrapper p {
 		font-size: 12px;
 		margin: 0 auto 10px;
@@ -839,6 +685,7 @@ h1{
 	#hero {
 		height: 150px;
 		position: relative;
+		margin:0px;
 	 }
 	 .items img {
 		 width: 100%;
@@ -864,6 +711,7 @@ h1{
 	#next {
 		position: absolute;
 		top: 50%;
+		right:0px;
 		-webkit-transform: translateY(-50%);
 		-moz-transform: translateY(-50%);
 		transform: translateY(-50%);
@@ -872,7 +720,6 @@ h1{
 	.wrapper #secound-paragraf-index {
 		font-size: 12px;
 	}
-
 	#home-box  {
 		display: none;
 		background-color: rgba(40, 41, 40, 0.57);
@@ -935,24 +782,8 @@ h1{
 	.animeList a {
 		font-size: 12px;
 		color: white;
-	}
-	#sakuraImg, 
-	#gaaraImg,
-	#sideBar img,
-	#orihimeImg,
-	#gokuImg,
-	#erenImg,
-	#luffyImg,
-	#totoroImg,
-	#kagomeImg,
-	#cowboyImg,
-	#mononokeImg,
-	#howlImg,
-	#gtoSidebarImg,
-	#champlooImg,
-	#chihiroImg,
-	#mikasaImg2,
-	#indexImg {
+	} 
+	#sideBar img {
 		display: none;
 	}
 
@@ -974,5 +805,94 @@ h1{
 	}	
 	#glWrapper h1 {
 		margin-bottom: 10px;
+	}
+
+	/* Pagina Contact */
+
+	#contact-form{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#contact-form h1{
+		font-size: 30px;
+	}
+	#contact-form h2{
+		display: none;
+	}
+	#contact-form input, 
+	#contact-form select, 
+	#contact-form textarea,
+	#contact-form label{
+		width: 90%;
+	}
+	#contact-form form{
+		width: 95%;
+	}
+
+}
+
+/* tableta */
+@media(min-width: 769px) and (max-width:1100px){
+	#slider, 
+	.footer-images,
+	.box img {
+		max-width: 100%;
+	}
+	#menu-containar{
+		max-width: 90%;
+	} 
+	.wrapper{
+		max-width: 90%;
+	}
+	#header img {
+    	max-height: 110px;
+	}
+	#contentWrapper {
+		width: 75%;
+	}
+	#sideBar {
+	    width: 25%;
+	    float: left;
+	}
+	.wrapper p {
+    	font-size: 12px;
+	}
+	.wrapper #secound-paragraf-index {
+		font-size: 14px;
+	}
+	#hero {
+    	margin: 20px;
+	}
+	.wrapper h1 {
+    	font-size: 30px;
+	}
+	#menu a.menu-anchor {
+	    padding: 6px 0px;
+	    margin: 0px 5px;
+	    font-size: 15px;
+	}
+	#menu-containar {
+	    margin: 0 auto;
+	    height: 30px;
+	}
+	#contact-form h1 {
+    	font-size: 35px;
+	}
+	#contact-form h2 {
+    	font-size: 20px;
+	}
+	#contact-form {
+    	width: 70%;
+	}
+	#hero{
+		width:auto;
+	}
+	#slider .items {
+    	width: 100% !important;
+	}
+	#next{
+		position: absolute;
+	    top: 135px;
+	    right: 0%;
 	}
 }

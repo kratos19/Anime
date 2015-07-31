@@ -4,30 +4,33 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Inuyasha
+					One Piece
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					InuYasha (unul dintre cele mai cunoscute anime-uri) sau InuYasha, a Feudal Fairy Tale, este o serie manga si anime japoneza, scrisa si ilustrata de Rumiko Takahashi. 
-					A avut premiera in Weekly Shonen Sunday pe 13 noiembrie 1996 si s-a incheiat pe 18 iunie 2008.
-					Actinea prezentata in InuYasha este bazata pe aventurile unui semidemon, o adolescenta din Japonia moderna, un calugar pervers, un demon-vulpe si un exterminator de demoni din perioada Sengoku, pe masura ce ei cauta toate fragmentele Giuvaerului Sacru si incearca sa-l tina departe de raufacatori, in special Naraku.
+					One Piece este o serie manga si anime scrisa si ilustrata de Eiichiro Oda, care a fost serializata in revista Weekly Shonen Jump de pe 4 august 1997. 
+					Capitolele individuale sunt publicate in volume tankobon de catre Shueisha. 
+					Primul a fost lansat pe 4 decembrie 1997, ajungandu-se la 50 de volume in iulie 2008. 
+					One Piece urmareste aventurile lui Monkey D. Luffy, un adolescent de 17 ani, care obtine puteri supernaturale dupa ce mananca un fruct magic, si echipajul sau de pirati, numiti Straw Hats. 
+					Visul lui Luffy este sa gaseasca cea mai mare comoara din lume, One Piece, devenind astfel urmatorul Rege al Piratilor. 
+					Cand a creat seria, Oda a fost puternic influentat de manga Dragon Ball.
 				</p>
-				<img src="images/Inuyasha.jpg">	
+				<img src="images/one-piece.jpg">	
 				<p>
-					Seria manga a fost adaptata in doua serii anime televizate, produse de Compania Sunrise. 
-					Prima serie, cu o emisie de 167 de episoade pe Yomiuri TV, Japonia, a avut loc din 16 octombrie 2000 pana pe 13 septembrie 2004, a fost regizata de Masashi Ikeda pentru primele 40 de episoade, iar restul au fost regizate de Yasunao Aoki. 
-					Seria secunda, numita InuYasha: The Final Act, a inceput sa fie difuzata din 3 octombrie 2009, pentru a acoperi restul seriei manga si s-a incheiat pe 29 martie 2010.
+					Seria a fost adaptata intr-un OVA in 1998 de catre Production I.G. 
+					A fost adaptata apoi intr-o serie anime de catre Toei Animation, ce a avut premiera in Japonia pe postul Fuji Television pe 20 octombrie 1999. 
+					Pana in octombrie 2011, 520 de episoade ale seriei au fost difuzate. 
+					Pe langa OVA si seria anime, One Piece a fost adaptata in nouă filme de lung metraj de catre Toei, si multiple jocuri video bazate pe serie au fost lansate.
 				</p>
-				<img src="images/Inuyasha2.jpg">
+				<img src="images/one-piece2.png">
 				
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="kagomeImg">
-				</div>
+				<img src="images/Luffy.png">
 				<h3>
 					Anime-uri:
 				</h3>

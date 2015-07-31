@@ -43,8 +43,7 @@
 				</div>
 			</div>
 			<div id="sideBar">
-				<div id="mikasaImg2">
-					</div>
+				<img src="images/Anime.png">
 				<div id="top">
 					<h3>
 						Anime-uri:
@@ -73,8 +72,7 @@
 						</ul>
 					</div>
 				</div>
-				<div id="indexImg">
-				</div>
+				<img src="images/mikasa2.png">
 			</div>
 	</div>
 </div>

@@ -4,31 +4,33 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Attack On Titan
+					Howl's Moving Castle
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Acum cateva sute de ani, oamenii aproape ca au fost exterminati de uriasi. 
-					Uriasii au de obicei cateva etaje in inaltime, par sa nu aiba inteligenta, devoreaza fiinte umane si par sa o faca din placere, si nu de foame. 
-					Un mic procentaj din umanitate a supravietuit baricadandu-se intr-un oras protejat de pereti foarte inalti, mai inalti chiar si decat cei mai mari uriasi.
+					Howl's Moving Castle is a 2004 Japanese animated fantasy film scripted and directed by Hayao Miyazaki. 
+					The film is based on the novel of the same name by British writer Diana Wynne Jones. 
+					The film was produced by Toshio Suzuki, animated by Studio Ghibli and distributed by Toho. 
+					Mamoru Hosoda, director of one episode and two movies from the Digimon series, was originally selected to direct but abruptly left the project, leaving the then-retired Miyazaki to take up the director's role. 
 				</p>
-				<img src="images/erenImgPage.jpg">	
+				<img src="images/Howl-s-Moving-Castle.jpg">	
 				<p>
-					Revenind in prezent, orasul nu mai vazuse un urias de peste 100 de ani. 
-					Adolescentul Eren si sora lui vitrega, Mikasa, iau parte la ceva oribil, atunci cand zidurile orasului sunt distruse de un super urias care apare din senin. 
-					Cum uriasii mai mici umpleau orasul, cei doi copii privesc oripilati cum mama lor este mancata de vie. 
-					Eren jura ca va omori toti uriasii si ca se va razbuna pentru intreaga umanitate.
+					The film had its world premiere at the Venice Film Festival on September 5, 2004, and was released in Japanese theaters on November 20, 2004. 
+					The film is one of only three (out of a current 18) Studio Ghibli films which were not released in July. 
+					It went on to gross $190 million in Japan and $235 million worldwide, making it one of the most financially successful Japanese films in history. 
+					The film was later dubbed into English by Pixar's Peter Docter and distributed in North America by Walt Disney Pictures. 
+					It received a limited release in the United States and Canada beginning June 10, 2005 and was released nationwide in Australia on September 22 and in the United Kingdom the following September. 
+					
 				</p>
-				<img src="images/erenImgPage2.jpg">
+				<img src="images/Howl-s-Moving-Castl2.jpg">
 				
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="erenImg">
-				</div>
+				<img src="images/howl.jpg">
 				<h3>
 					Anime-uri:
 				</h3>

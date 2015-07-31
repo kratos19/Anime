@@ -1,7 +1,7 @@
 <?php if(!defined('APP')) return false; ?>
-<div class="wrapper home-wrapper">
+<div class="wrapper">
 	<h1>Ce sunt anime-urile?</h1>
-	<p>
+	<p id="secound-paragraf-index">
 		Anime (din cuvantul japonez anime, la randul lui o abreviere a cuvantului englez animation, insemnand animatie, pluralul corect fiind anime-uri) reprezinta orice film de animatie produsa in Japonia sau originara din aceasta. La originea acestui gen stau benzile desenate japoneze numite manga.
 		Cu toate ca anime-ul este considerat uneori in mod eronat un "gen" (precum comedia, drama, etc.), in realitate este o forma de arta care include toate genurile intalnite in literatura si cinema.
 	</p>

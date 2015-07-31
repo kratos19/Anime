@@ -4,31 +4,30 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Princess Mononoke
+					Attack On Titan
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Princess Mononoke is a 1997 anime epic action historical fantasy film written and directed by Hayao Miyazaki. 
-					It was animated by Studio Ghibli and produced by Toshio Suzuki. 
-					The film stars the voices of Yoji Matsuda, Yuriko Ishida, Yuko Tanaka, Kaoru Kobayashi, Masahiko Nishimura, Akihiro Miwa, Mitsuko Mori and Hisaya Morishige.
-					Princess Mononoke is set in the late Muromachi period (approximately 1336 to 1573) of Japan with fantasy elements. 
+					Acum cateva sute de ani, oamenii aproape ca au fost exterminati de uriasi. 
+					Uriasii au de obicei cateva etaje in inaltime, par sa nu aiba inteligenta, devoreaza fiinte umane si par sa o faca din placere, si nu de foame. 
+					Un mic procentaj din umanitate a supravietuit baricadandu-se intr-un oras protejat de pereti foarte inalti, mai inalti chiar si decat cei mai mari uriasi.
 				</p>
-				<img src="images/princess.jpg">	
+				<img src="images/erenImgPage.jpg">	
 				<p>
-					The story follows the young Emishi warrior Ashitaka's involvement in a struggle between forest gods and the humans who consume its resources. 
-					The term "Mononoke"  is not a name, but a Japanese word for a spirit or monster.
-					Princess Mononoke was released in Japan on July 12, 1997, and in the United States on October 29, 1999. 
-					It was a critical and commercial success, becoming the highest-grossing film in Japan of 1997, and the highest-grossing there of all time until Titanic was released later that year. 
-					It was translated and distributed in North America by Miramax Films, and despite a poor box office performance there, it sold well on DVD and video, bringing Ghibli attention in the United States for the first time.
+					Revenind in prezent, orasul nu mai vazuse un urias de peste 100 de ani. 
+					Adolescentul Eren si sora lui vitrega, Mikasa, iau parte la ceva oribil, atunci cand zidurile orasului sunt distruse de un super urias care apare din senin. 
+					Cum uriasii mai mici umpleau orasul, cei doi copii privesc oripilati cum mama lor este mancata de vie. 
+					Eren jura ca va omori toti uriasii si ca se va razbuna pentru intreaga umanitate.
 				</p>
-				<img src="images/princess2.jpg">
+				<img src="images/erenImgPage2.jpg">
 				
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
+				<img src="images/eren.png">
 				<h3>
 					Anime-uri:
 				</h3>
@@ -56,9 +55,6 @@
 					</ul>
 				</div>
 			</div>
-			<div id="mononokeImg">
-			</div>
 		</div>
 	</div>
 </div>
-	

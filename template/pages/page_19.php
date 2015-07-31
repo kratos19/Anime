@@ -53,8 +53,7 @@
 							<li><a href="<?php echo URI, 'index.php?page=page_19'; ?>">Spirited Away</a></li>
 						</ul>
 					</div>
-					<div id="chihiroImg">
-					</div>
+					<img src="images/chihiro1.png">
 				</div>
 			</div>
 	</div>

@@ -4,34 +4,31 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Dragon Ball Z
+					Princess Mononoke
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Ambele serii anime Dragon Ball si Dragon Ball Z se bazeaza pe seria manga originala Dragon Ball. 
-					Dragon Ball urmareste aventurile lui Goku din timpul copilariei pana cind devine un tanar adult si se casatoreste; 
-					cuprinzand arcele care contin cele mai multe elemente umoristice si fantastice. 
-					Dragon Ball Z preia povestea la cinci ani dupa finalul Dragon Ball, introducandu-l pe fiul lui Son Goku si noi inamici, mult mai puternici. 
+					Princess Mononoke is a 1997 anime epic action historical fantasy film written and directed by Hayao Miyazaki. 
+					It was animated by Studio Ghibli and produced by Toshio Suzuki. 
+					The film stars the voices of Yoji Matsuda, Yuriko Ishida, Yuko Tanaka, Kaoru Kobayashi, Masahiko Nishimura, Akihiro Miwa, Mitsuko Mori and Hisaya Morishige.
+					Princess Mononoke is set in the late Muromachi period (approximately 1336 to 1573) of Japan with fantasy elements. 
 				</p>
-				<img src="images/dragon.jpg">	
-			</div>
-			<div class="animeImg">
-				<h1>
-					Dragon Ball GT
-				</h1>
+				<img src="images/princess.jpg">	
 				<p>
-					Dragon Ball GT este ultima serie anime produsa de Toei Animation, insa aceasta nu este bazata pe seria manga care a fost incheiata cu Saga Majin Buu. 
-					Akira Toriyama a fost responsabil doar pentru crearea personajelor principale si alte mici amanunte pentru aceasta serie.
+					The story follows the young Emishi warrior Ashitaka's involvement in a struggle between forest gods and the humans who consume its resources. 
+					The term "Mononoke"  is not a name, but a Japanese word for a spirit or monster.
+					Princess Mononoke was released in Japan on July 12, 1997, and in the United States on October 29, 1999. 
+					It was a critical and commercial success, becoming the highest-grossing film in Japan of 1997, and the highest-grossing there of all time until Titanic was released later that year. 
+					It was translated and distributed in North America by Miramax Films, and despite a poor box office performance there, it sold well on DVD and video, bringing Ghibli attention in the United States for the first time.
 				</p>
-				<img src="images/dragon2.jpg">	
+				<img src="images/princess2.jpg">
+				
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="gokuImg">
-				</div>
 				<h3>
 					Anime-uri:
 				</h3>
@@ -59,6 +56,8 @@
 					</ul>
 				</div>
 			</div>
+			<img src="images/mononoke.png">
 		</div>
 	</div>
 </div>
+	

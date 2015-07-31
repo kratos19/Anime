@@ -4,31 +4,32 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					My Neighbor Totoro
+					Bleach
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					My Neighbor Totoro is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and produced by Studio Ghibli. 
-					The film - which stars the voice actors Noriko Hidaka, Chika Sakamoto, and Hitoshi Takagi - tells the story of the two young daughters (Satsuki and Mei) of a professor and their interactions with friendly wood spirits in postwar rural Japan. 
-					The film won the Animage Anime Grand Prix prize and the Mainichi Film Award for Best Film in 1988.
+					Povestea incepe cu aparitia subita a Rukia Kuchiki in camera lui Ichigo Kurosaki. 
+					Ea este surprinsa de abiltatea sa de o vedea, dar conversatia ce rezulta este intrerupta de aparitia unui hollow, un spirit malefic. 
+					Dupa ce Rukia este grav ranita incercand sa-l protejeze pe Ichigo, 
+					ea intentioneaza sa-i transfere jumatate din puterile ei lui Ichigo, sperand sa ii dea oportunitatea sa infrunte hollows pe picior de egalitate. Ichigo absoarbe neintentionat aproximativ toata puterea ei, ceea ce ii permite sa invinga hollow cu usurinta.
 				</p>
-				<img src="images/My-Neighbor-Totoro.jpg">	
+				<img src="images/kurosaky.jpg">	
 				<p>
-					In 1988, Streamline Pictures produced an exclusive dub for use on transpacific flights by Japan Airlines. 
-					Troma Films, under their 50th St. Films banner, distributed the dub of the film co-produced by Jerry Beck. 
-					It was released on VHS and DVD by Fox Video. Troma's and Fox's rights to this version expired in 2004. 
-					The film was re-released by Walt Disney Pictures on March 7, 2006 and by Madman on March 15, 2006. It features a new dub cast. 
-					This DVD release is the first version of the film in the United States to include both Japanese and English language tracks, as Fox did not have the rights to the Japanese audio track for their version.
+					Urmatoarea zi, Rukia apare in clasa lui Ichigo ca un elev transferat. 
+				Spre surprinderea lui, ea pare a fi un om normal. 
+				Ea teoretizeaza ca puterea spirituala a lui Ichigo a dus la absorbtia aproape totala a puterilor ei, lasand-o ca urmare naufragiata in lumea reala. 
+				Rukia si-a transferat spiritul intr-un gigai (un corp uman artificial) pana cand isi va recapata abilitatile. 
+				Intre timp, Ichigo trebuie sa-i preia indatoririle de shinigami, luptand cu hollows si ghidand suflete ratacite inapoi in Soul Society.
 				</p>
-				<img src="images/My-Neighbor-Totoro2.jpg">
+				<img src="images/RukiaIchigo.jpg">
+				
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="totoroImg">
-				</div>
+				<img src="images/rukia.png">
 				<h3>
 					Anime-uri:
 				</h3>

@@ -26,8 +26,7 @@
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="cowboyImg">
-				</div>
+				<img src="images/cowboy.png">
 				<h3>
 					Anime-uri:
 				</h3>

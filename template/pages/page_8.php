@@ -4,32 +4,33 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Naruto
+					Dragon Ball Z
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Naruto este o serie manga japoneza scrisa si ilustrata de Masashi Kishimoto, avand si o adaptare anime. 
-					Personajul principal, Naruto Uzumaki, este un ninja adolescent, imprevizibil si hiperactiv, care este intr-o constanta cautare de cunoastere, 
-					visand sa devina Hokage, un ninja recunoscut ca cel mai puternic dintre toti si liderul satului.
+					Ambele serii anime Dragon Ball si Dragon Ball Z se bazeaza pe seria manga originala Dragon Ball. 
+					Dragon Ball urmareste aventurile lui Goku din timpul copilariei pana cind devine un tanar adult si se casatoreste; 
+					cuprinzand arcele care contin cele mai multe elemente umoristice si fantastice. 
+					Dragon Ball Z preia povestea la cinci ani dupa finalul Dragon Ball, introducandu-l pe fiul lui Son Goku si noi inamici, mult mai puternici. 
 				</p>
-				<img src="images/narutoImgPage.jpg" />	
+				<img src="images/dragon.jpg">	
 			</div>
 			<div class="animeImg">
 				<h1>
-					Naruto Shippuuden
+					Dragon Ball GT
 				</h1>
 				<p>
-					Naruto Shippuuden este continuarea seriei originale Naruto. 
-					Povestea se invarte in jurul unui Naruto Uzumaki mai in varsta si mai matur, fiind intr-o continua cautare care spera sa duca la salvarea prietenului sau Uchiha Sasuke din mainile sarpelui Shinobi, Orochimaru. 
-					Dupa doi ani si jumatate, Naruto se intoarce in Konoha si decide sa faca totul pentru ca drumul sau sa fie pavat cu fapte reale. Dar cand in atentia sa apare o noua grupare numita Akatsuki... lucrurile se complica.
+					Dragon Ball GT este ultima serie anime produsa de Toei Animation, insa aceasta nu este bazata pe seria manga care a fost incheiata cu Saga Majin Buu. 
+					Akira Toriyama a fost responsabil doar pentru crearea personajelor principale si alte mici amanunte pentru aceasta serie.
 				</p>
-				<img src="images/akatsuki.jpg">
+				<img src="images/dragon2.jpg">	
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
+				<img src="images/goku.png">
 				<h3>
 					Anime-uri:
 				</h3>
@@ -56,8 +57,6 @@
 						<li><a href="<?php echo URI, 'index.php?page=page_19'; ?>">Spirited Away</a></li>
 					</ul>
 				</div>
-			</div>
-			<div id="gaaraImg">
 			</div>
 		</div>
 	</div>

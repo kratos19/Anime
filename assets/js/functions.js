@@ -9,7 +9,17 @@ jQuery(document).ready(function() {
 
 	jQuery(".button-lista-anime")
 		.on('click touchstart', function (event) {
-			$('#sideBar').toggleClass('arata'); 
+			jQuery('#sideBar').toggleClass('arata'); 
 		});
+
+	jQuery('#slider').cycle({
+		fx:         'scrollHorz',
+		next:       '#next',
+		prev:       '#prev',
+		timeout:    3000,
+		pause:      1,
+		width: 		860,
+		fit:        1
+	});
 
 });

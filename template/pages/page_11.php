@@ -4,30 +4,30 @@
 		<div id="contentWrapper">
 			<div class="animeImg">
 				<h1>
-					Great Teacher Onizuka
+					My Neighbor Totoro
 				</h1>
 				<button class="button-lista-anime">
 					Arata Lista Anime-uri
 				</button>
 				<p>
-					Great Teacher Onizuka, abreviat oficial la GTO, este un manga, anime si serial-drama TV japonez, adresata adolescentilor, creat de Tohru Fujisawa. 
-					Este povestea lui Eikichi Onizuka, un fost membru al unei gasti de motociclisti bosozoku, si visul acestuia de a deveni cel mai bun profesor din Japonia. 
-					GTO este o continuare oficiala a manga-ului de acelasi autor Shonan Junai Gumi, precedata la randul sau de Bad Company. de asta, apropiindu-se de el si pretinzind ca va ajuta cu investigatia, in ciuda banuielilor deja conturate de L in privinta lui.
+					My Neighbor Totoro is a 1988 Japanese animated fantasy film written and directed by Hayao Miyazaki and produced by Studio Ghibli. 
+					The film - which stars the voice actors Noriko Hidaka, Chika Sakamoto, and Hitoshi Takagi - tells the story of the two young daughters (Satsuki and Mei) of a professor and their interactions with friendly wood spirits in postwar rural Japan. 
+					The film won the Animage Anime Grand Prix prize and the Mainichi Film Award for Best Film in 1988.
 				</p>
-				<img src="images/gto.jpg">	
+				<img src="images/My-Neighbor-Totoro.jpg">	
 				<p>
-					Eikichi Onizuka is a 22-year-old ex-gang member and a virgin. 
-					While peeping up girls' skirts at a local shopping mall, Onizuka meets a girl who agrees to go out on a date with him. Onizuka's attempt to sleep with her fails when her current "boyfriend", her teacher, shows up at the love hotel they are in and asks her to return to him. 
-					The teacher is old and unattractive, but has sufficient influence over her that she leaps from a second-story window and lands in his arms.
-					Onizuka, upon seeing this display of a teacher's power over girls, decides to become a teacher himself.
+					In 1988, Streamline Pictures produced an exclusive dub for use on transpacific flights by Japan Airlines. 
+					Troma Films, under their 50th St. Films banner, distributed the dub of the film co-produced by Jerry Beck. 
+					It was released on VHS and DVD by Fox Video. Troma's and Fox's rights to this version expired in 2004. 
+					The film was re-released by Walt Disney Pictures on March 7, 2006 and by Madman on March 15, 2006. It features a new dub cast. 
+					This DVD release is the first version of the film in the United States to include both Japanese and English language tracks, as Fox did not have the rights to the Japanese audio track for their version.
 				</p>
-				<img src="images/Great-Teacher-Onizuka.jpg">	
+				<img src="images/My-Neighbor-Totoro2.jpg">
 			</div>
 		</div>
 		<div id="sideBar">
 			<div id="top">
-				<div id="gtoSidebarImg">
-				</div>
+				<img src="images/totoro.png">
 				<h3>
 					Anime-uri:
 				</h3>
